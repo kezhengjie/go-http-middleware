@@ -19,7 +19,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/kezhengjie/go-http-middleware/middleware"
+	"github.com/AlpsMonaco/go-http-middleware/middleware"
 )
 
 var logger = log.New(os.Stdout, "", log.LstdFlags)
